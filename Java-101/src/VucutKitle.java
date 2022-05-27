@@ -15,6 +15,6 @@ public class VucutKitle {
 
         c = (b/(a*a));
 
-        System.out.print(c);
+        System.out.print("Vücut Kitle İndeksiniz : " + c);
     }
 }
