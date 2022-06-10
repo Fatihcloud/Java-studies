@@ -3,7 +3,6 @@ import java.util.*;
 public class UstAlma {
     public static void main(String[] args) {
         int taban,tavan,total = 1;
-        int i = 1;
 
         Scanner inp = new Scanner(System.in);
 
@@ -13,10 +12,9 @@ public class UstAlma {
         System.out.print("Tavan Sayı Giriniz : ");
         tavan = inp.nextInt();
 
-        while (i  <= tavan)
+        for(int i = 1; i <= tavan; i++)
         {
             total *= taban;
-            i++;
         }
 
         System.out.print("Sonuç : " + total);
