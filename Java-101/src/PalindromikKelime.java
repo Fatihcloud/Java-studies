@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PalindromikKelime {
 
     static boolean isPalindrome(String str) {
@@ -24,6 +26,10 @@ public class PalindromikKelime {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome("abba"));
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Palindromik Kelime Test et : ");
+        String sayı = input.next();
+        System.out.println(isPalindrome(sayı));
     }
 }
